@@ -1,0 +1,1 @@
+SELECT items.name as item_name, sellers.name as seller_name, sellers.rating FROM sellers JOIN items ON sellerId = sellers.id AND sellers.rating > 4;
